@@ -38,6 +38,8 @@ body {
   background: var(--bg);
   color: var(--ink);
   line-height: 1.6;
+  min-height: 100dvh;
+  overflow-x: hidden;
 }
 
 a {
@@ -52,10 +54,15 @@ a {
 
 .ambient {
   position: fixed;
-  inset: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: -1;
   overflow: hidden;
   background: linear-gradient(180deg, #fff 0%, #f7f2ff 50%, #f9f6ff 100%);
+  min-height: 100dvh;
+  pointer-events: none;
 }
 
 [data-theme="dark"] .ambient {
@@ -538,31 +545,50 @@ a {
 
 @media (max-width: 860px) {
   .nav {
-    flex-direction: column;
+    flex-direction: row;
+    padding: 12px 0;
+    gap: 12px;
   }
 
   .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
+    display: none;
   }
 
   .nav-actions {
-    width: 100%;
-    justify-content: center;
+    margin-left: auto;
   }
 
   .hero {
     padding-top: 90px;
   }
+
+  .shape {
+    animation: none;
+  }
 }
 
 @media (max-width: 600px) {
-  .cta {
+  .hero-actions .cta {
     width: 100%;
   }
 
   .theme-toggle {
     width: 42px;
+  }
+
+  .nav .cta {
+    width: auto;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+
+  .brand img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .brand span {
+    font-size: 1rem;
   }
 
   .ghost {
