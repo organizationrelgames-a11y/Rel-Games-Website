@@ -1,0 +1,45 @@
+# rel-games.com app-ads.txt (for mobile app ad monetization)
+# IMPORTANT:
+# 1) Keep only networks you actually use.
+# 2) Replace all placeholder IDs with your real seller account IDs.
+# 3) Wrong or missing IDs can reduce fill/revenue.
+
+# Google AdMob / Ad Manager (replace with your publisher ID)
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+# Meta Audience Network (replace with your placement/account mapping)
+# facebook.com, YOUR_FACEBOOK_SELLER_ID, RESELLER, c3e20eee3f780d68
+
+# AppLovin / MAX
+# applovin.com, YOUR_APPLOVIN_SELLER_ID, DIRECT
+
+# Unity Ads (Unity LevelPlay / legacy Unity monetization)
+# unity.com, YOUR_UNITY_SELLER_ID, DIRECT
+
+# ironSource / LevelPlay
+# ironsrc.com, YOUR_IRONSOURCE_SELLER_ID, DIRECT, 79929e88b2ba73bc
+
+# Mintegral
+# mintegral.com, YOUR_MINTEGRAL_SELLER_ID, DIRECT
+
+# Liftoff Monetize (Vungle)
+# vungle.com, YOUR_VUNGLE_SELLER_ID, DIRECT
+
+# Chartboost
+# chartboost.com, YOUR_CHARTBOOST_SELLER_ID, DIRECT
+
+# Digital Turbine (Fyber)
+# fyber.com, YOUR_FYBER_SELLER_ID, DIRECT
+
+# InMobi
+# inmobi.com, YOUR_INMOBI_SELLER_ID, DIRECT
+
+# Pangle
+# pangle.com, YOUR_PANGLE_SELLER_ID, DIRECT
+
+# Smaato
+# smaato.com, YOUR_SMAATO_SELLER_ID, DIRECT
+
+# Notes:
+# - Some partners provide RESELLER instead of DIRECT based on your setup.
+# - Always copy exact lines from each partner dashboard/docs for your account.

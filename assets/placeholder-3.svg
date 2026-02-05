@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Game icon placeholder">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd24a" />
+      <stop offset="100%" stop-color="#ff914d" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="40" fill="#0f1730" />
+  <path d="M60 140c10-40 40-70 80-80" stroke="url(#g3)" stroke-width="18" stroke-linecap="round" />
+  <circle cx="120" cy="80" r="26" fill="#5b9dff" />
+</svg>

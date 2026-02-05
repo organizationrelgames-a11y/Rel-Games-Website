@@ -1,0 +1,31 @@
+{
+  "games": [
+    {
+      "name": "Merge Lab",
+      "description": "Mix, match, and discover quirky combos in a bright puzzle world.",
+      "icon": "assets/placeholder-1.svg",
+      "links": {
+        "play": "#",
+        "appStore": "#"
+      }
+    },
+    {
+      "name": "Bubble Trails",
+      "description": "Pop your way through dreamy levels and collect glowing charms.",
+      "icon": "assets/placeholder-2.svg",
+      "links": {
+        "play": "#",
+        "appStore": "#"
+      }
+    },
+    {
+      "name": "Puzzle Parade",
+      "description": "Short sessions, satisfying wins, and a parade of clever puzzles.",
+      "icon": "assets/placeholder-3.svg",
+      "links": {
+        "play": "#",
+        "appStore": "#"
+      }
+    }
+  ]
+}

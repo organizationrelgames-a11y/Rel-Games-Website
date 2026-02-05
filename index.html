@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rel Games — Casual & Puzzle Game Studio</title>
+    <meta name="description" content="Rel Games builds delightful casual and puzzle games for mobile. Discover our latest titles and play today." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+    <link rel="apple-touch-icon" href="assets/logo.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta property="og:title" content="Rel Games — Casual & Puzzle Game Studio" />
+    <meta property="og:description" content="We build delightful casual and puzzle games for mobile." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0a0f1f" />
+  </head>
+  <body>
+    <div class="ambient">
+      <div class="shape blob blob-1"></div>
+      <div class="shape blob blob-2"></div>
+      <div class="shape pill pill-1"></div>
+      <div class="shape pill pill-2"></div>
+      <div class="shape star"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#top" aria-label="Rel Games">
+          <img src="assets/logo.svg" alt="Rel Games logo" />
+          <span>Rel Games</span>
+        </a>
+        <nav class="nav-links">
+          <a href="#games">Games</a>
+          <a href="#studio">Studio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <span class="icon-sun" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18">
+                <circle cx="12" cy="12" r="4.5" fill="currentColor"></circle>
+                <path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M19.8 4.2l-2.1 2.1M6.3 17.7l-2.1 2.1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            <span class="icon-moon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18">
+                <path d="M20 14.5A8.5 8.5 0 1 1 11 4a7 7 0 0 0 9 10.5Z" fill="currentColor"></path>
+              </svg>
+            </span>
+          </button>
+          <a class="cta" href="#games">Explore Games</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Casual & Puzzle Studio</p>
+            <h1>Games that feel like a bright idea.</h1>
+            <p class="lead">
+              Rel Games builds playful, colorful experiences that are easy to pick up and impossible
+              to put down. From cozy puzzles to clever challenges, there’s always a new spark to chase.
+            </p>
+            <div class="hero-actions">
+              <a class="cta" href="#games">Browse Games</a>
+              <a class="ghost" href="#studio">Meet the Studio</a>
+            </div>
+            <div class="hero-tags">
+              <span>Cozy Sessions</span>
+              <span>Colorful Design</span>
+              <span>Fresh Puzzles</span>
+            </div>
+          </div>
+          <div class="hero-card">
+            <img src="assets/hero-character.svg" alt="Playful character illustration" />
+            <div class="hero-card-note">
+              <h2>New Release</h2>
+              <p>Merge, match, and unwind in a neon puzzle lab.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="games" class="games">
+        <div class="container">
+          <div class="section-head">
+            <h2>Our Games</h2>
+            <p>Tap into playful puzzles, charming worlds, and satisfying progress.</p>
+          </div>
+          <div id="games-grid" class="games-grid"></div>
+        </div>
+      </section>
+
+      <section id="studio" class="studio">
+        <div class="container studio-grid">
+          <div>
+            <h2>Built for everyday play</h2>
+            <p>
+              Rel Games is a tight-knit studio focused on making joyful moments. We obsess over
+              clarity, color, and clever mechanics so anyone can pick up and enjoy our games in seconds.
+            </p>
+          </div>
+          <div class="studio-cards">
+            <div class="studio-card">
+              <h3>Casual first</h3>
+              <p>Short sessions, long-term joy. Our design respects your time.</p>
+            </div>
+            <div class="studio-card">
+              <h3>Fresh puzzles</h3>
+              <p>We remix classic mechanics with bright new ideas.</p>
+            </div>
+            <div class="studio-card">
+              <h3>Global vibes</h3>
+              <p>Artwork and music inspired by playful cultures worldwide.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container contact-grid">
+          <div>
+            <h2>Let’s build the next hit together</h2>
+            <p>
+              Partnerships, publishing, or press — say hello.
+            </p>
+          </div>
+          <div class="contact-card">
+            <h3>Contact</h3>
+            <p>support@rel-games.com</p>
+            <div class="socials">
+              <a href="#">Instagram</a>
+              <a href="#">TikTok</a>
+              <a href="#">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <img class="footer-logo" src="assets/logo.svg" alt="Rel Games logo" />
+          <p>© 2026 Rel Games. All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

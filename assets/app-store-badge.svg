@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="100" viewBox="0 0 340 100" role="img" aria-label="Download on the App Store">
+  <rect x="1.5" y="1.5" width="337" height="97" rx="16" fill="#000" stroke="#3b3b3b" stroke-width="3"/>
+  <g transform="translate(26 18)">
+    <path d="M23 9c3-4 8-7 12-7 1 6-2 11-5 14-3 3-8 6-12 5-1-5 2-9 5-12z" fill="#fff"/>
+    <path d="M39 30c-1-9 7-14 7-14-4-5-11-6-13-6-6-1-11 3-14 3-4 0-8-3-13-2-7 0-13 4-16 10-7 12-2 31 4 39 3 4 7 9 12 9s7-3 13-3c5 0 7 3 13 3 5 0 9-5 12-9 4-6 6-12 6-12-1 0-10-4-11-16z" fill="#fff"/>
+  </g>
+  <text x="108" y="31" fill="#fff" font-size="20" font-family="Arial, sans-serif">Download on the</text>
+  <text x="108" y="72" fill="#fff" font-size="44" font-family="Arial, sans-serif" font-weight="700">App Store</text>
+</svg>
